@@ -1,0 +1,4 @@
+interface:
+  display_name: "小红书封面替换"
+  short_description: "按 prompt 生成上图，再用固定模板替换上图和标题"
+  default_prompt: "请根据我的标题和正文先生成上半部分主视觉图；如果我已经提供上图素材，则直接使用素材。然后把 rockflow 封面的上图和标题替换掉，并校验其他区域不变"
